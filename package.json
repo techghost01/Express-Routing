@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "name": "express-checkpoint",
+  "version": "1.0.0",
+  "description": "GoMyCode Checkpoint Practice",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Ige Daniel Olumide",
+  "license": "ISC"
+}

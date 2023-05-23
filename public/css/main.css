@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+nav {
+    background: #00695C;
+    height: 5rem;
+    width: 100%;
+    padding: 1rem 1rem;
+    font-size: 1.6rem;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.nav_list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_list-item a:hover,
+.nav_list-item a:active {
+    cursor: pointer;
+    color: yellow;
+}
+
+.nav_list-item:not(:last-child) {
+    padding-right: 3rem;
+}
+
+.body-content {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.class_1-summary {
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+.class_1-summary>img {
+    object-fit: cover;
+}
+
+article {
+    font-size: 1.3rem;
+}
+
+.workingTime {
+    margin: 1rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.timeContainer {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.timeContainer>img {
+    object-fit: cover;
+    height: 40%;
+    /* margin: 0 auto; */
+}
+
+.timeContainer > h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 5rem;
+}
+.text {
+    font-family: 'Open sans', sans-serif;
+    font-size: 2.8rem;
+}
